@@ -1,0 +1,91 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #252525;
+    color: #F0F0F0;
+    font-size: 14px;
+
+    padding: 10px;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#left {
+    width: 140px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#mid {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+#right {
+    flex: 3;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* buttons */
+
+.button-40 {
+    background-color: #485852;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #F0F0F0;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: 'Courier New', monospace;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: 0.75rem 1.2rem;
+    margin: .5rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.button-40:hover {
+    background-color: #2A3933;
+}
+
+.button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-40:active {
+    background-color: Black;
+    /* Green color for active state */
+}
+
+
+@media (min-width: 768px) {
+    .button-40 {
+        padding: 1.0rem 1.75rem;
+    }
+}
